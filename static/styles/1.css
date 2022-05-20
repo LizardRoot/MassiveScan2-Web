@@ -1,0 +1,85 @@
+.parameters {
+	font-size: 35px;
+	font-family: "uni-sans.heavy-caps";}
+
+.port {
+	font-size: 30px;
+	font-family: "uni-sans.heavy-caps";}
+	.port2 {
+		font-size: 30px;
+		font-family: "uni-sans.heavy-caps";
+		width: 100px;
+		background-color: #878787;
+		margin-left: 61px;
+		border: 2px solid black;
+	 	border-radius: 4px;
+	 	outline: 0;
+    	outline-offset: 0;}
+
+.timeout {
+	font-size: 30px;
+	font-family: "uni-sans.heavy-caps";}
+	.timeout2 {
+		font-size: 30px;
+		font-family: "uni-sans.heavy-caps";
+		width: 60px;
+		background-color: #878787;
+		margin-left: 11px;
+		border: 2px solid black;
+	 	border-radius: 4px;
+	 	outline: 0;
+    	outline-offset: 0;}
+
+.thread {
+	font-size: 30px;
+	font-family: "uni-sans.heavy-caps";}
+	.thread2 {
+		font-size: 30px;
+		font-family: "uni-sans.heavy-caps";
+		width: 100px;
+		background-color: #878787;
+		margin-left: 5px;
+		border: 2px solid black;
+	 	border-radius: 4px;
+	 	outline: 0;
+    	outline-offset: 0;}
+
+.ips {
+	font-size: 30px;
+	font-family: "uni-sans.heavy-caps";}
+	.ips2 {
+		font-size: 30px;
+		font-family: "uni-sans.heavy-caps";
+		width: 260px;
+		background-color: #878787;
+		border: 2px solid black;
+		border-radius: 4px;
+		outline: 0;
+    	outline-offset: 0;}
+
+.clear {
+	font-size: 30px;
+	font-family: "uni-sans.heavy-caps";
+	color: #a80000;
+	cursor: pointer;
+	background-color: #878787;
+	border: 2px solid #000000;
+	border-radius: 4px;}
+
+.start {
+	font-size: 30px;
+	font-family: "uni-sans.heavy-caps";
+	color: green;
+	cursor: pointer;
+	margin-left: 54px;
+	background-color: #878787;
+	border: 2px solid #000000;
+	border-radius: 4px;}
+
+
+@font-face {
+font-family: "uni-sans.heavy-caps"; 
+src: url("uni-sans.heavy-caps.otf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 

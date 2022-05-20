@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <title class="MassiveScan2">MassiveScan2</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/1.css') }}">
+    <body bgcolor="#878787">
+  </head>
+  <body class="body">
+    <p class="parameters">Enter parameters:</p>
+    <form method="post">
+    	<p class="port"><label for="port">port: </label>
+        <input type="text" class="port2" name="port" id="port"><br></p>
+
+    	<p class="timeout"><label for="timeout">timeout: </label>
+        <input type="float" class="timeout2" name="timeout" id="timeout"><br></p>
+
+    	<p class="thread"><label for="thread">threads: </label>
+        <input type="text"  class="thread2" name="thread" id="thread"><br></p>
+
+      <p1 class="ips">ips:</p1>
+      <br>
+    	<textarea class="ips2"  rows="10" cols="18" name="ips" id="ips"></textarea>
+      <br>
+      <br>
+    	<input type="reset" class="clear" value="clear">
+      <input type="submit" class="start" value="start">
+    </form>
+  </body>
+</html>
